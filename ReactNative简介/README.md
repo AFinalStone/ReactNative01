@@ -1,4 +1,4 @@
-React Native学习<一> 认识Recat Native
+## React Native学习<一> 认识Recat Native
 
 博客原文:http://www.jianshu.com/p/b88944250b25
 ![](http://upload-images.jianshu.io/upload_images/2761423-4645cd15aeabdf04.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
