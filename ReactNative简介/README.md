@@ -21,22 +21,28 @@ React Native 诞生于 2015 年，名副其实的富二代，主要使命是为�
 ### 目录
 
 - React Native 好在哪
-
+```
 1.跨平台＋动态更新
-2.代码复用
-3.RN vs Weex
-4.RN vs Hybrid
-5.RN 劣势
 
+2.代码复用
+
+3.RN vs Weex
+
+4.RN vs Hybrid
+
+5.RN 劣势
+```
 - React Native 运行机制
 
 - RN 开发环境搭建
 
 - 引入 React Native
 
+```
 1.Build from Scratch
-2.集成到已有项目
 
+2.集成到已有项目
+```
 - Javascript、React 及 ES6、JSX 语法
 
 - UI 层
@@ -44,15 +50,21 @@ React Native 诞生于 2015 年，名副其实的富二代，主要使命是为�
 - 网络请求层
 
 - Debugging 调试
-
+```
 1.In-App 报错
+
 2.Console.log
+
 3.大杀器：Chrome 逐行调试
+```
 
 - 从 JS 调用 Native 方法或显示自定义 Native View
 
+```
 1.Native Modules：JS 里直接调用 Native(Java/Swift) 方法
+
 2.Native UI Component：JS 里直接调用自定义的 Native View
+```
 
 - React Native 适合你吗？
 
@@ -128,6 +140,7 @@ Android 与 iOS Team 分别编写客户端代码，打包，分发到 Play Store
 
 对于一个用 RN 搭建的移动 App，在启动后会从服务器下载最新的 JS Bundle 文件，然后由本地 JavascriptCore 引擎对 JS 文件进行解析，并利用 Bridge 映射到对应的 Native 方法和 UI 控件。得到的效果是：
 
+```
 1.同样的 RN 代码，下发到 Android 和 iOS 不同平台中，会自动调用对应 Native 的 UI 控件，保证了各平台用户体验的连贯性；
 
 2.开发者就算是移动端小白，只要有 Web 基础，通过编写一套 RN 端代码就可以同时完成 Android 与 iOS App 的开发；
@@ -137,7 +150,7 @@ Android 与 iOS Team 分别编写客户端代码，打包，分发到 Play Store
 4.Native Modules，这是 RN 强大的一个扩展性，允许你通过简单的代码就能实现在 JS 里直接调用你自己的 Native 方法；
 
 5.Native Components，如果你自己实现了一些复杂的 Native UI 组件，而这些组件尚未被 RN 支持，你可以利用 Native Components 快速把原生组件引入到 RN 中并可以直接在 JS 里更新这些组件的状态。
-
+```
 ### 三、RN 开发环境搭建
 
 首先 IDE 方面，RN 推荐了一些工具：
