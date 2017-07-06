@@ -105,7 +105,7 @@ Android 与 iOS Team 分别编写客户端代码，打包，分发到 Play Store
 - 社区、文档弱，GitHub Issue 基本是中文。当然我毫无歧视中文之意。我认为，一套项目开源是真正意义是希望借助开源社区的力量，一起来完善改进，因此要优先推崇英文，使项目国际化，得到全世界开发者的共同支持，这样才是可持续的模式。而 Weex 的 Issue 里放眼望去基本 90% 都是中文，无论提问者还是项目维护者。这一点直接把国外优秀的开发者拒之门外，也很难让我看到多么长远的未来。
 下面是摘取的 RN 里的一则中文 issue：
 
-![](http://upload-images.jianshu.io/upload_images/2761423-a4b436f26fd83958.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)**Issue is for bug report, not for Q&A**
+![Issue is for bug report, not for Q&A](http://upload-images.jianshu.io/upload_images/2761423-a4b436f26fd83958.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 - Contributor 差别。因为上面一点，Weex 的 Contributor 只有 91 个人，而 React-Native 的 Contributor 有 1214 人。Contributor 是用来干嘛的？除了支持新功能，还有就是修复 bug 啊。Weex/RN 都是希望一统 Android + iOS 的，这么伟大的目标，这么艰巨的工程，不是几个人可以轻轻松松搞定的。
 
