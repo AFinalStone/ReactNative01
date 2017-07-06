@@ -58,7 +58,7 @@ React Native 诞生于 2015 年，名副其实的富二代，主要使命是为�
 
 - 为什么要写这篇文章
 
-###一、React Native 好在哪
+### 一、React Native 好在哪
 
 下面我们来看下 Hybrid 及 React Native 等开发模式包含了哪些常规移动开发所不具备的优势。
 
@@ -129,9 +129,13 @@ Android 与 iOS Team 分别编写客户端代码，打包，分发到 Play Store
 对于一个用 RN 搭建的移动 App，在启动后会从服务器下载最新的 JS Bundle 文件，然后由本地 JavascriptCore 引擎对 JS 文件进行解析，并利用 Bridge 映射到对应的 Native 方法和 UI 控件。得到的效果是：
 
 1.同样的 RN 代码，下发到 Android 和 iOS 不同平台中，会自动调用对应 Native 的 UI 控件，保证了各平台用户体验的连贯性；
+
 2.开发者就算是移动端小白，只要有 Web 基础，通过编写一套 RN 端代码就可以同时完成 Android 与 iOS App 的开发；
+
 3.由于可以利用 JS bundle 同时下发数据和业务逻辑，这意味着你可以像 Web 开发一样，实时迭代更新你的移动端 App，无需在了解各自平台的热修复技术；
+
 4.Native Modules，这是 RN 强大的一个扩展性，允许你通过简单的代码就能实现在 JS 里直接调用你自己的 Native 方法；
+
 5.Native Components，如果你自己实现了一些复杂的 Native UI 组件，而这些组件尚未被 RN 支持，你可以利用 Native Components 快速把原生组件引入到 RN 中并可以直接在 JS 里更新这些组件的状态。
 
 ### 三、RN 开发环境搭建
@@ -218,7 +222,9 @@ react-native init ReactNative01
 
 在读文档时，我们可以先通过一边写代码一边读文档的方式进行，RN 非常贴心，直接在 Web 里嵌入了模拟器，我们只要修改编辑框里的代码，立即就能在右边的模拟器看到效果。这极大的降低了我们的学习成本。
 
-![](http://upload-images.jianshu.io/upload_images/2761423-f99ed3800142254a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)Text Component
+![](http://upload-images.jianshu.io/upload_images/2761423-f99ed3800142254a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+Text Component
 
 另外，在学习一个组件时，我们要区分哪个属性是某个平台特有的。比如下面两个 Text 的属性：textBreakStrategy 只会在 Android 上生效，而 adjustsFontSizeToFit 只可以用在 iOS 上。
 
