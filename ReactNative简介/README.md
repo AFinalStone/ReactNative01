@@ -165,11 +165,13 @@ Android 与 iOS Team 分别编写客户端代码，打包，分发到 Play Store
 
 本人的话目前采用的是 Sublime，因为个人常用 Sublime，而且第三方插件很丰富，轻量方便。下面简单说下配置，感兴趣的小伙伴可以看下。
 
-1.Babel 用来高亮 React JSX 语法，支持 ES6，而 React-Native 就是搭建在 React.js 基础上的；
+```
+1. Babel 用来高亮 React JSX 语法，支持 ES6，而 React-Native 就是搭建在 React.js 基础上的；
 
-2.React-Native-Snippets 可以快速生成 RN 的一些模版代码；
+2. React-Native-Snippets 可以快速生成 RN 的一些模版代码；
 
-3.ESLint 超级强大的 Lint 工具，支持 ES6、JSX 语法检查，而且还有 React 和 RN 的插件，比纯粹的 JSXHint/JSLint 都强大；
+3. ESLint 超级强大的 Lint 工具，支持 ES6、JSX 语法检查，而且还有 React 和 RN 的插件，比纯粹的 JSXHint/JSLint 都强大；
+```
 
 当然，用 Atom 的小伙伴自然要首先考虑 Nuclide。
 
@@ -205,13 +207,15 @@ react-native init AwesomeProject
 
 以 Android 为例，大概要做以下几步：
 
-1.添加 gradle 依赖：compile "com.facebook.react:react-native:+" // From node_modules.；
+```
+1. 添加 gradle 依赖：compile "com.facebook.react:react-native:+" // From node_modules.；
 
-2.创建空的 Activity ，指定 JS bundle 和入口 Component 名字即会自动在这个 Activity 里去加载 JS bundle 文件；
+2. 创建空的 Activity ，指定 JS bundle 和入口 Component 名字即会自动在这个 Activity 里去加载 JS bundle 文件；
 
-3.在 Activity 里监听 onBackPressed 事件，用来与 JS 端协作处理返回键点击事件。
+3. 在 Activity 里监听 onBackPressed 事件，用来与 JS 端协作处理返回键点击事件。
 
-4.启动 server，运行 App 即可。
+4. 启动 server，运行 App 即可。
+```
 
 总之需要说明的是，即使是移动端小白，也可以遵循文档里的指示完成这一步。接下来的大部分时间只要关心 JS 端开发就行了。
 
@@ -393,6 +397,7 @@ RN 的缺点：
 
 目前使用下来对 React Native 的一些个人感受：
 
+```
 1. 学习门槛并没有开始想象那么高。大概只花了两三天时间就熟悉了 Javascript、React 框架、JSX语法，然后就开始着手业务开发。
 
 2. 对 Android App 的影响。React Native 会给 Android 端带来 6MB 左右的 size 增幅，不过在采用了 split apk 后就只有 1MB 左右增幅。
@@ -404,6 +409,7 @@ RN 的缺点：
 5. 动态部署真的很不错。以前每次写好代码都要花不少时间来编译运行，而现在只要写一份代码，就可以同时在 Android 和 iOS 实时更新了，这无疑节省了生命。
 
 6. 有待完善。当然，React Native 中确实还存在着不少问题，生态系统也还不够完善。不过我相信，这只是时间问题。
+```
 
 #### 不过我想说的是，React Native 所代表的跨平台、动态更新技术已经引起了全世界开发者关注，而且这种技术势必会是未来的需求和潮流。React Native 不一定会成功，但至少目前 React Native 已经是这一领域的领跑者。
 
