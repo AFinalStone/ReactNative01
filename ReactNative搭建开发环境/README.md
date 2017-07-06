@@ -1,6 +1,7 @@
 ## React Native学习<二> ReactNative搭建开发环境
 
 [ReactNative+AndroidStudio环境搭建___Windows系统](http://www.jianshu.com/p/1a3452aaa578)
+
 [ReactNative+AndroidStudio环境搭建___Linux系统](http://blog.csdn.net/dream_an/article/details/53787183)
 
 ### 一、搭建开发环境

@@ -1,6 +1,7 @@
 ## React Native学习<一> 认识Recat Native
 
 博客原文:http://www.jianshu.com/p/b88944250b25
+
 ![](http://upload-images.jianshu.io/upload_images/2761423-4645cd15aeabdf04.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 前言
 React Native 诞生于 2015 年，名副其实的富二代，主要使命是为父出征，与 Apple 和 Google 抗衡，为开发者带去一套跨平台、动态更新的 Javascript 框架，口号是：Learn once, write anywhere：Build mobile apps with React。在试图推翻 Android 和 iOS 压制的同时，还提携了一把自家兄弟：React。
